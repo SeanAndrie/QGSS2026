@@ -1,0 +1,33 @@
+[project]
+name = "Quantum"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipython>=9.15.0",
+    "marimo>=0.23.14",
+    "matplotlib>=3.11.0",
+    "mthree>=3.0.0",
+    "nbformat>=5.10.4",
+    "networkx>=3.6.1",
+    "numpy>=2.5.1",
+    "pandas>=3.0.3",
+    "pylatexenc>=2.10",
+    "qc-grader",
+    "qiskit-addon-opt-mapper>=0.1.0",
+    "qiskit-addon-pna>=0.2.0",
+    "qiskit-addon-slc>=0.1.0",
+    "qiskit-addon-utils>=0.4.0",
+    "qiskit-aer>=0.17.2",
+    "qiskit-experiments>=0.14.1",
+    "qiskit-ibm-runtime>=0.47.0",
+    "qopt-best-practices",
+    "seaborn>=0.13.2",
+    "sympy>=1.14.0",
+]
+
+[tool.uv.sources]
+qc-grader = { git = "https://github.com/qiskit-community/Quantum-Challenge-Grader.git" }
+qopt-best-practices = { git = "https://github.com/qiskit-community/qopt-best-practices.git" }
