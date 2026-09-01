@@ -1,0 +1,12 @@
+marimo
+python-dotenv
+qiskit
+qiskit-ibm-runtime
+qiskit-aer
+qiskit-samplomatic
+qiskit-addon-pna
+qiskit-addon-slc
+numpy
+pandas
+matplotlib
+networkx
